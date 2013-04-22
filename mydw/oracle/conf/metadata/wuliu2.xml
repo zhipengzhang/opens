@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--2007-11-1-->
+<Schema name="sales">
+ <DataSource url="qa" userName="test" passWord="test" connString="jdbc:odbc:qa" connDriver="sun.jdbc.odbc.JdbcOdbcDriver"/>
+<Cube name="Sales">
+  <Table name="sales2"/> 
+ <Dimension name="customer" foreignKey="id"> 
+  <Hierarchy name="customer"  hasAll="true" allMemberName="all customer" primaryKey="id">
+  <Table name="sales2" /> 
+  <Level name="customer" column="客户名称" uniqueMembers="true" /> 
+  </Hierarchy>
+ </Dimension>
+ <Dimension name="supply" foreignKey="id">
+  <Hierarchy name="supply"  hasAll="true" allMemberName="all supply" primaryKey="id">
+  <Table name="sales2" /> 
+  <Level name="supply" column="供应商" uniqueMembers="true" /> 
+  </Hierarchy>
+ </Dimension>
+ <Dimension name="Product name" foreignKey="id">
+  <Hierarchy name="Product name"  hasAll="true" allMemberName="all product" primaryKey="id">
+  <Table name="sales2" /> 
+  <Level name="Product name" column="产品名称" uniqueMembers="true" /> 
+  </Hierarchy>
+ </Dimension> 
+
+ <Dimension name="Time" foreignKey="id">
+  <Hierarchy name="Time"  hasAll="true" allMemberName="all Time" primaryKey="id">
+  <Table name="sales2" /> 
+  <Level name="Time" column="时间" uniqueMembers="true" /> 
+  </Hierarchy>
+ </Dimension> 
+
+ <Measure name="amount" column="数量" aggregator="sum"
+      formatString="#,###.00"/>
+  
+ <Measure name="sales total" column="总金额"
+      aggregator="sum" formatString="Currency"/>
+  
+</Cube>
+</Schema>

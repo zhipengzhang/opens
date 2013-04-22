@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Query - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSP4904.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/Query.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\AggDBReader.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\AggFileReader.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\AggReader.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\MolapCCInvertListQuery.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\MolapQueryComputationBase.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\MTCCQuery.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\QueryCmptException.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\QueryComputation.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\Query\RolapCCQuery.cpp"
+]
+Creating command line "cl.exe @C:\Users\xiangyou\AppData\Local\Temp\RSP4904.tmp" 
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSP4905.tmp" with contents
+[
+/nologo /out:"..\lib\Query.lib" 
+".\Debug\AggDBReader.obj"
+".\Debug\AggFileReader.obj"
+".\Debug\AggReader.obj"
+".\Debug\MolapCCInvertListQuery.obj"
+".\Debug\MolapQueryComputationBase.obj"
+".\Debug\MTCCQuery.obj"
+".\Debug\QueryCmptException.obj"
+".\Debug\QueryComputation.obj"
+".\Debug\RolapCCQuery.obj"
+]
+Creating command line "link.exe -lib @C:\Users\xiangyou\AppData\Local\Temp\RSP4905.tmp"
+<h3>Output Window</h3>
+Compiling...
+AggDBReader.cpp
+AggFileReader.cpp
+AggReader.cpp
+MolapCCInvertListQuery.cpp
+MolapQueryComputationBase.cpp
+MTCCQuery.cpp
+QueryCmptException.cpp
+QueryComputation.cpp
+RolapCCQuery.cpp
+Creating library...
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSP88B4.tmp" with contents
+[
+/nologo /o"..\lib/Query.bsc" 
+".\Debug\AggDBReader.sbr"
+".\Debug\AggFileReader.sbr"
+".\Debug\AggReader.sbr"
+".\Debug\MolapCCInvertListQuery.sbr"
+".\Debug\MolapQueryComputationBase.sbr"
+".\Debug\MTCCQuery.sbr"
+".\Debug\QueryCmptException.sbr"
+".\Debug\QueryComputation.sbr"
+".\Debug\RolapCCQuery.sbr"]
+Creating command line "bscmake.exe @C:\Users\xiangyou\AppData\Local\Temp\RSP88B4.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Query.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

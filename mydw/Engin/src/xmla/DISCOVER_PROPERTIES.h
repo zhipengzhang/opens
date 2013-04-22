@@ -1,0 +1,20 @@
+// DISCOVER_PROPERTIES.h: interface for the DISCOVER_PROPERTIES class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_DISCOVER_PROPERTIES_H__523AB90D_DED3_4F72_9D69_1B4A6E2066E3__INCLUDED_)
+#define AFX_DISCOVER_PROPERTIES_H__523AB90D_DED3_4F72_9D69_1B4A6E2066E3__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+class DISCOVER_PROPERTIES  
+{
+public:
+	DISCOVER_PROPERTIES();
+	virtual ~DISCOVER_PROPERTIES();
+
+};
+
+#endif // !defined(AFX_DISCOVER_PROPERTIES_H__523AB90D_DED3_4F72_9D69_1B4A6E2066E3__INCLUDED_)

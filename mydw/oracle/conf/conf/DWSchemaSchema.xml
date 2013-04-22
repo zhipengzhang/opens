@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<DWSchemaSchema>
+<!-- Aggregator support by DW and Format String of fact value support by DW -->
+<MeasureAggregatorList>
+<MeasureAggregator>sum</MeasureAggregator>
+<MeasureAggregator>count</MeasureAggregator>
+<MeasureAggregator>avg</MeasureAggregator>
+<MeasureAggregator>max</MeasureAggregator>
+<MeasureAggregator>min</MeasureAggregator>
+<MeasureAggregator>first</MeasureAggregator>
+<MeasureAggregator>last</MeasureAggregator>
+<MeasureAggregator>distinct</MeasureAggregator>
+<MeasureAggregator>medium</MeasureAggregator>
+</MeasureAggregatorList>
+<FormatStringList>
+<FormatString>Standard</FormatString>
+<FormatString>#,###.00</FormatString>
+<FormatString>#,###</FormatString>
+</FormatStringList>
+</DWSchemaSchema>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--2007-11-1-->
+<Schema name="OLAP_TestDB">
+  <DataSource url="DW_wz" userName="system" passWord="manager"/>
+<Cube name="WZ">
+  <Table name="fact_wz_final"/> 
+ <Dimension name="WZDD1" foreignKey="WZSXH"> 
+  <Hierarchy name="WZDD1"  hasAll="true" allMemberName="all WZZD1" primaryKey="WZSXH">
+  <Table name="fact_wz_final" /> 
+  <Level name="GUOJIA" column="GUOJIA" uniqueMembers="false" />
+  <Level name="SHENG" column="SHENG" uniqueMembers="false" />
+  <Level name="SHI" column="SHI" uniqueMembers="false" />   
+  </Hierarchy>
+ </Dimension>
+<Dimension name="Time" foreignKey="WZSJ">
+  <Hierarchy name="Time"  hasAll="true" allMemberName="all Time" primaryKey="WZSJ">
+  <Table name="dim_time1" /> 
+      <Level name="Year" column="year" uniqueMembers="false"/> 
+      <Level name="Month" column="month" uniqueMembers="false"/>
+      <Level name="Day" column="day" uniqueMembers="false"/>	
+  </Hierarchy>
+</Dimension>
+<Dimension name="WZXWDM" foreignKey="WZSXH">
+  <Hierarchy name="WZXWDM name"  hasAll="true" allMemberName="all WZXWDM" primaryKey="WZSXH">
+  <Table name="fact_wz_final" /> 
+  <Level name="WZXWDM name" column="WZXWDM" uniqueMembers="true" /> 
+  </Hierarchy>
+</Dimension> 
+<Measure name="freq" column="SSQYDM" aggregator="count"
+      formatString="#,###"/>
+</Cube>
+</Schema>

@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!--2007-10-4-->
+<Schema name="FoodMart 2000">
+  <DataSource url="FoodMart" userName="test" passWord="test"/>
+ <Dimension name="Product">
+    <Hierarchy  name="Product" hasAll="true" primaryKey="product_id">   
+       <Table name="product"/>  
+      <Level name="Brand Name" column="brand_name" uniqueMembers="false"/>
+      <Level name="Product Name" column="product_name" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Store">
+    <Hierarchy name="Store" hasAll="true" primaryKey="store_id" allMemberName="All Stores">
+      <Table name="Store"/>
+      <Level name="Store Country" column="store_country" uniqueMembers="true"/>
+      <Level name="Store State" column="store_state" uniqueMembers="true"/>
+      <Level name="Store City" column="store_city" uniqueMembers="false"/>
+      <Level name="Store Name" column="store_name" uniqueMembers="true">
+        <Property name="Store Type" column="store_type"/>
+        <Property name="Store Manager" column="store_manager"/>
+        <Property name="Store Sqft" column="store_sqft" type="Numeric"/>
+        <Property name="Grocery Sqft" column="grocery_sqft" type="Numeric"/>
+        <Property name="Frozen Sqft" column="frozen_sqft" type="Numeric"/>
+        <Property name="Meat Sqft" column="meat_sqft" type="Numeric"/>
+        <Property name="Has coffee bar" column="coffee_bar" type="Boolean"/>
+        <Property name="Street address" column="store_street_address" type="String"/>
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Store Size in SQFT">
+      <Hierarchy name="Store Size in SQFT" hasAll="true" primaryKey="store_id" allMemberName="All Store Size in SQFT">
+      <Table name="Store"/>
+      <Level name="Store Sqft" column="store_sqft" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Store Type">
+    <Hierarchy name="Store Type" hasAll="true" primaryKey="store_id" allMemberName="All Store Type">
+      <Table name="store"/>
+      <Level name="Store Type" column="store_type" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Time" type="TimeDimension">
+    <Hierarchy name="Time" hasAll="false" primaryKey="time_id">
+      <Table name="time_by_day"/> 
+      <Level name="Year" column="the_year" uniqueMembers="true"/>
+      <Level name="Quarter" column="quarter" uniqueMembers="false"/>
+      <Level name="Month" column="month_of_year" uniqueMembers="false"/>
+    </Hierarchy>
+  </Dimension> 
+
+  <Dimension name="Warehouse">
+    <Hierarchy name="Warehouse" hasAll="true" primaryKey="warehouse_id">
+      <Table name="warehouse"/>
+      <Level name="Country" column="warehouse_country" uniqueMembers="true"/>
+      <Level name="State Province" column="warehouse_state_province"
+          uniqueMembers="true"/>
+      <Level name="City" column="warehouse_city" uniqueMembers="false"/>
+      <Level name="Warehouse Name" column="warehouse_name" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+
+<Cube name="Sales">
+  <Table name="sales_fact_1997"/>
+  <DimensionUsage name="Store" source="Store" foreignKey="store_id"/>
+  <DimensionUsage name="Store Size in SQFT" source="Store Size in SQFT"
+      foreignKey="store_id"/>
+  <DimensionUsage name="Store Type" source="Store Type" foreignKey="store_id"/>
+  <DimensionUsage name="Time" source="Time" foreignKey="time_id"/>
+  <DimensionUsage name="Product" source="Product" foreignKey="product_id"/>
+ <Dimension name="Customers" foreignKey="customer_id">
+  <Hierarchy name="Customers"  hasAll="true" allMemberName="All Customers" primaryKey="customer_id">
+  <Table name="customer" /> 
+  <Level name="Country" column="country" uniqueMembers="true" /> 
+  <Level name="State Province" column="state_province" uniqueMembers="true" /> 
+  <Level name="City" column="city" uniqueMembers="false" /> 
+  </Hierarchy>
+ </Dimension>
+  <Dimension name="Promotion Media" foreignKey="promotion_id">
+    <Hierarchy name="Promotion Media" hasAll="true"  primaryKey="promotion_id" allMemberName="All Media">
+      <Table name="promotion"/> 
+      <Level name="Media Type" column="media_type" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Promotions" foreignKey="promotion_id">
+    <Hierarchy name="Promotions" hasAll="true" primaryKey="promotion_id">
+      <Table name="promotion"/> 
+      <Level name="Promotion Name" column="promotion_name" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>  
+  <Dimension name="Education Level" foreignKey="customer_id">
+    <Hierarchy name="Education Level" hasAll="true" primaryKey="customer_id" allMemberName="All Education Level">
+      <Table name="customer"/> 
+      <Level name="Education Level" column="education" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Gender" foreignKey="customer_id">
+    <Hierarchy name="Gender" hasAll="true"  primaryKey="customer_id" allMemberName="All Gender">
+      <Table name="customer"/> 
+      <Level name="Gender" column="gender" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Marital Status" foreignKey="customer_id">
+    <Hierarchy name="Marital Status" hasAll="true" primaryKey="customer_id">
+      <Table name="customer"/> 
+      <Level name="Marital Status" column="marital_status" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Yearly Income" foreignKey="customer_id">
+    <Hierarchy name="Yearly Income" hasAll="true" primaryKey="customer_id" allMemberName="All Yearly Income">
+      <Table name="customer"/>
+      <Level name="Yearly Income" column="yearly_income" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+
+  <Measure name="Unit Sales" column="unit_sales" aggregator="sum"
+      formatString="Standard"/>
+  <Measure name="Store Cost" column="store_cost" aggregator="sum"
+      formatString="#,###.00"/>
+  <Measure name="Store Sales" column="store_sales" aggregator="sum"
+      formatString="#,###.00"/>
+  <Measure name="Sales Count" column="product_id" aggregator="count"
+      formatString="#,###"/>
+  <Measure name="Customer Count" column="customer_id"
+      aggregator="distinct count" formatString="#,###"/>
+  <CalculatedMember
+      name="Profit"
+      dimension="Measures"
+      formula="[Measures].[Store Sales] - [Measures].[Store Cost]"/>
+  <CalculatedMember
+      name="Profit last Period"      
+      formula="COALESCEEMPTY((Measures.[Profit], [Time].PREVMEMBER),Measures.[Profit])"/>
+  <CalculatedMember
+      name="Profit Growth"      
+      formula="([Measures].[Profit] - [Measures].[Profit last Period]) / [Measures].[Profit last Period]"/>
+</Cube>
+
+<Cube name="Warehouse">
+  <Table name="inventory_fact_1997"/>
+  <DimensionUsage name="Store" source="Store" foreignKey="store_id"/>
+  <DimensionUsage name="Store Size in SQFT" source="Store Size in SQFT"
+      foreignKey="store_id"/>
+  <DimensionUsage name="Store Type" source="Store Type" foreignKey="store_id"/>
+  <DimensionUsage name="Time" source="Time" foreignKey="time_id"/>
+  <DimensionUsage name="Product" source="Product" foreignKey="product_id"/>
+  <DimensionUsage name="Warehouse" source="Warehouse" foreignKey="warehouse_id"/>
+
+  <Measure name="Store Invoice" column="store_invoice" aggregator="sum"/>
+  <Measure name="Supply Time" column="supply_time" aggregator="sum"/>
+  <Measure name="Warehouse Cost" column="warehouse_cost" aggregator="sum"/>
+  <Measure name="Warehouse Sales" column="warehouse_sales" aggregator="sum"/>
+  <Measure name="Units Shipped" column="units_shipped" aggregator="sum" formatString="#.0"/>
+  <Measure name="Units Ordered" column="units_ordered" aggregator="sum" formatString="#.0"/>
+  <Measure name="Warehouse Profit" column="&quot;warehouse_sales&quot;-&quot;inventory_fact_1997&quot;.&quot;warehouse_cost&quot;" aggregator="sum"/>
+</Cube>
+
+<Cube name="Store">
+  <Table name="store"/>
+  <Dimension name="Store Type" >
+    <Hierarchy name="Store Type" hasAll="true">
+      <Table name="store"/>
+      <Level name="Store Type" column="store_type" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+  <DimensionUsage name="Store" source="Store"/>
+
+  <Dimension name="Has coffee bar">
+    <Hierarchy name="Has coffee bar" hasAll="true">
+      <Table name="store" />
+      <Level name="Has coffee bar" column="coffee_bar" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+
+  <Measure name="Store Sqft" column="store_sqft" aggregator="sum"
+      formatString="#,###"/>
+  <Measure name="Grocery Sqft" column="grocery_sqft" aggregator="sum"
+      formatString="#,###"/>
+</Cube>
+
+<Cube name="HR">
+  <Table name="salary"> 
+  <Dimension name="Time" foreignKey="pay_date">
+    <Hierarchy name="Time" hasAll="false" primaryKey="the_date">
+      <Table name="time_by_day"/> 
+      <Level name="Year" column="the_year"  uniqueMembers="true"/>
+      <Level name="Quarter" column="quarter" uniqueMembers="false"/>
+      <Level name="Month" column="month_of_year" uniqueMembers="false"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Position" foreignKey="employee_id">
+    <Hierarchy name="Position" hasAll="true"  primaryKey="employee_id">
+      <Table name="employee"/> 
+      <Level name="Management Role" column="management_role" uniqueMembers="true"/>
+      <Level name="Position Title"  column="position_title" uniqueMembers="false"/>
+    </Hierarchy>
+  </Dimension>
+  <Dimension name="Department" foreignKey="department_id">
+    <Hierarchy name="Department" hasAll="true" primaryKey="department_id">
+      <Table name="department"/> 
+      <Level name="Department Description" uniqueMembers="true"
+          column="department_id"/>
+    </Hierarchy>
+  </Dimension> 
+  <Measure name="Org Salary" column="salary_paid" aggregator="sum"
+      formatString="Currency"/>
+  <Measure name="Count" column="employee_id" aggregator="count"
+      formatString="#,#"/>
+  <Measure name="Number of Employees" column="employee_id"
+      aggregator="distinct count" formatString="#,#"/>
+  <CalculatedMember name="Employee Salary" 
+      formatString="Currency"
+      formula="([Employees].currentmember.datamember, [Measures].[Org Salary])"/>
+  <CalculatedMember name="Avg Salary" 
+      formatString="Currency"
+      formula="[Measures].[Org Salary]/[Measures].[Number of Employees]"/>
+</Cube> 
+</Schema>

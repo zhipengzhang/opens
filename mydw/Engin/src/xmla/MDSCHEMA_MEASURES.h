@@ -1,0 +1,20 @@
+// MDSCHEMA_MEASURES.h: interface for the MDSCHEMA_MEASURES class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_MDSCHEMA_MEASURES_H__B6F14368_EEE7_46EB_BC39_4835DE4B05A6__INCLUDED_)
+#define AFX_MDSCHEMA_MEASURES_H__B6F14368_EEE7_46EB_BC39_4835DE4B05A6__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+class MDSCHEMA_MEASURES  
+{
+public:
+	MDSCHEMA_MEASURES();
+	virtual ~MDSCHEMA_MEASURES();
+
+};
+
+#endif // !defined(AFX_MDSCHEMA_MEASURES_H__B6F14368_EEE7_46EB_BC39_4835DE4B05A6__INCLUDED_)

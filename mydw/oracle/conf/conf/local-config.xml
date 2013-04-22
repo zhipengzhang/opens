@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Config>
+	<OLAP_TestDB>
+		<WZ>
+			<Alg>RolapMTPDPreComputation</Alg>
+			<QryAlg>MolapMTPDInvertListQuery</QryAlg>
+		</WZ>
+	</OLAP_TestDB>
+</Config>

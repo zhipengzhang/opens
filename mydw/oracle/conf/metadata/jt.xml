@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Schema name="jt">
+<DataSource url="minwz" userName="test" passWord="test" connString="jdbc:odbc:minwz" connDriver="sun.jdbc.odbc.JdbcOdbcDriver" />
+<Cube name="wz">
+<Table name="wz1"/>
+<Dimension name="address" foreignKey="WZSXH" >
+<Hierarchy name="address" hasAll="true" primaryKey="WZSXH" >
+<Table name="wz1" />
+<Level name="address" column="WZDD1" uniqueMembers="true">
+</Level>
+</Hierarchy>
+</Dimension>
+<Dimension name="weifa" foreignKey="WZSXH" >
+<Hierarchy name="weifa" hasAll="true" primaryKey="WZSXH" >
+<Table name="wz1" />
+<Level name="weifa" column="WZXWDM" uniqueMembers="true">
+</Level>
+</Hierarchy>
+</Dimension>
+<Dimension name="time" foreignKey="WZSJ" >
+<Hierarchy name="time" hasAll="true" primaryKey="WZSJ" >
+<Table name="ga_time" />
+<Level name="time" column="WZSJ" uniqueMembers="true">
+</Level>
+<Level name="day" column="day" uniqueMembers="true">
+</Level>
+<Level name="month" column="month" uniqueMembers="true">
+</Level>
+<Level name="year" column="year" uniqueMembers="true">
+</Level>
+</Hierarchy>
+</Dimension>
+<Measure name="HPHM" column="HPHM" aggregator="count" formatString="#,###" />
+</Cube>
+</Schema>

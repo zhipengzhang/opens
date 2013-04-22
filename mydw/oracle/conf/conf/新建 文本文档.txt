@@ -1,0 +1,345 @@
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :53246
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCu
+ocmtpourt
+atiIoNnF
+O: level= 5
+INFO: start loading ... 1000000->1199999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :76448
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCu
+ocmtpourt
+atioInN
+FO: level= 6
+INFO: start loading ... 1200000->1399999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :77585
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCu
+ocmtpourt
+atioIn
+NFO: level= 7
+INFO: start loading ... 1400000->1599999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :82514
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCu
+ocmtpourt
+atiIoNnF
+O: level= 8
+INFO: start loading ... 1600000->1799999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :82490
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCu
+ocmtpourt
+atiIoNnF
+O: level= 9
+INFO: start loading ... 1800000->1999999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :78972
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acssl aMsosl aMpoClCaPprCeCCPormepCuotmaptuitoant-i-oCno-n-sptrreuC
+cotmopru
+tatiIoNnF
+O: level= 10
+INFO: start loading ... 2000000->2199999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :86146
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiona-t-iCoonn-s-tprruec
+Ctoomrp
+utaItNiFoOn:
+ level= 11
+INFO: start loading ... 2200000->2399999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :101668
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCu
+ocmtpourt
+atiIoNnF
+O: level= 12
+INFO: start loading ... 2400000->2599999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :95685
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+INFION:F Oc:l acslsa sMso lMaoplCaCpPPrreeCCoommppuuttaattiioonn-B-aesxec-u-tCeo
+PnrsetCroumcptuotre
+
+IINNFFOO::  ccllaassss  MMoollaappCCCCPPrreeCCoommppuuttaattiioonn----CpornesCto
+rmupcuttoart
+ionI
+NFO: level= 13
+INFO: start loading ... 2600000->2799999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :92813
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+tIeN
+FION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCuo
+cmtpourt
+aItNiFoOn:
+ level= 14
+INFO: start loading ... 2800000->2999999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :93236
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCu
+octomr
+putation
+INFO: level= 15
+INFO: start loading ... 3000000->3199999
+INFO: class MolapCCPreComputation--loadNextData
+ItNuFpOl:e scNluams:s2 0M0o0l0a0p
+CCIPNrFeOC:o mcpluatsast iAogng-F-iblueiWlrdiCtCeIrn-v-eCrotnLsitsrtuscItnodre x
+p
+artition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+INFO: class MolapPreComputationBase--Constructor
+INFO: class MolapCCPreComputation--Constructor
+IINNFFOO::  lcelvaesls=  M1o6l
+apCCIPNrFeOC:o msptuatrat ltoiaodni-n-ge x.c.u.t e3P2r0e0C0o0m0p-u>t3e3
+99I9N9F9O
+: IcNlFaO:s sc lMaoslsa pMCoClParpeCCCoPmrpeuCtoamtpiuotna-t-iporne-C-olmopaudtN
+aetxitoDna
+ta
+INFO: the amount of cls is :74654
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+ItNFO: culpalsess NMuoml:a2p0C0C0P0r0e
+CIoNmFpOu:t actliaosns- -AbgugiFlidlCeCWIrnivteerrt-L-iCsotnssItnrduecxt
+or partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+INFO: class MolapPreComputationBase--Constructor
+INFO: class MolapCCPreComputation--Constructor
+INFO: class MolapCCPrIeNCFoOm:p ulteation--exvceult=e P1r7e
+CoImNpFuOt:e
+stIaNrFtO :l ocaldaisnsg  M.o.l.a p3C4C0P0r0e0C0o-m>p3u5t9a9t9i9o9n
+--IpNrFeOC:o mcpluatsast iMoonl
+apCCPreComputation--loadNextData
+INFO: the amount of cls is :82326
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :76721
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmuptuattaitoinoBna-s-ee-x-cCuotn
+esPtrreuCcotmopru
+teI
+NFION:F Oc:l acslsa sMso lMaoplCaCpPCrCePCroemCpoumtpauttiaotni-o-nC-o-npsrterCu
+ocmtpourt
+atiIon
+NFO: level= 18
+INFO: start loading ... 3600000->3799999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :84132
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+INFO: level= 19
+INFO: start loading ... 3800000->3999999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :71398
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+INIFNOF:O :c lcalsass sM oMloalpaCpCPPrreeCCoommppuuttaattiioonnB-a-seex-c-uCtoe
+nPsrterCuocmtpourt
+e
+INIFNOF:O :c lcalsass sM oMloalpCCaPprCeCCPormepCuotmaptuitoant-i-oCno-n-sptrreu
+Ccotmopru
+tatiIoNnF
+O: level= 20
+INFO: start loading ... 4000000->4199999
+INFO: class MolapCCPreComputation--loadNextData
+INFO: class MolapCCPreComputation--buildCCInvertListsIndex
+INFO: the amount of cls is :71899
+INFO: class MolapCCPreCompuation--Destructor
+INFO: class MolapPreComputation--Destructor
+INFO: class AggFileWriter--Destructor
+INFO: class AggFileWriter--releaseHdrHandle
+INFO: class AggFileWriter--releaseMapHandle
+tuplesNum:200000
+INFO: class AggFileWriter--Constructor partition
+INFO: class AggFileWriter--obtainHdrHandle
+INFO: class AggFileWriter--obtainMapHandle
+INFO: end loading!
+IINNFFOO::  ccllaassss  MMoollaappCPCrPerCeoCmopmutpauttiaotniBoans-e--e-xCcount
+setPrruecCtoomrp
+utIeN
+FOI:N FcOl:a scsl aMsosl aMpoClCaPprCeCCPormepCuotmaptuitoant-i-oCno-n-sptrreuCc
+otmopru
+tatiIon
+NFO: level= 21
+INFO: start loading ... 4200000->4399999
+INFO: class MolapCCPreComputation--loadNextData
+

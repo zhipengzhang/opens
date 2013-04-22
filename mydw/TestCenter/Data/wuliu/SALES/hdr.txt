@@ -1,0 +1,1 @@
+Customers name.customer.customer,supply.supply.supply,Product name.Product name.Product name,Time.Time.Time,Measures.Measures.amount,Measures.Measures.sales total

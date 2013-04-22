@@ -1,0 +1,33 @@
+<ConfigurationSettings>
+	<DataDir>../data</DataDir>
+	<PreCmptThreadNum>2</PreCmptThreadNum>
+	<BlocktupleSize>2000000</BlocktupleSize>
+	<PrecmptQueryTime>10000000000</PrecmptQueryTime>
+	<QryQueryTime>4800</QryQueryTime>
+	<AlgorithmsStragy>
+		<PrecomputationAlgorithms>
+			<MOLAP>
+				<MolapCCPreComputation></MolapCCPreComputation>
+				<MolapMTPDPreComputation></MolapMTPDPreComputation>
+			</MOLAP>
+			<ROLAP>
+				<RolapCCPreComputation></RolapCCPreComputation>
+				<RolapMTPDPreComputation></RolapMTPDPreComputation>
+			</ROLAP>
+		</PrecomputationAlgorithms>
+		<QueryAlgorithms>
+			<MOLAP>
+				<MolapCCInvertListQuery></MolapCCInvertListQuery>
+			</MOLAP>
+			<ROLAP>
+				<RolapCCQuery></RolapCCQuery>
+			</ROLAP>
+		</QueryAlgorithms>
+		<Relations>
+			<MolapCCPreComputation>MolapCCInvertListQuery</MolapCCPreComputation>
+			<MolapMTPDPreComputation>MolapMTPDInvertListQuery</MolapMTPDPreComputation>
+			<RolapMTPDPreComputation>RolapMTPDInvertListQuery</RolapMTPDPreComputation>
+			<RolapCCPreComputation>RolapCCQuery</RolapCCPreComputation>
+		</Relations>
+	</AlgorithmsStragy>
+</ConfigurationSettings>

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xodbc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSPE034.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/xodbc.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\XODBC\XODBC\xodbc(v6)\src\xodbc\XODBCDatabase.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\XODBC\XODBC\xodbc(v6)\src\xodbc\XODBCDataSource.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\XODBC\XODBC\xodbc(v6)\src\xodbc\XODBCError.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\XODBC\XODBC\xodbc(v6)\src\xodbc\XODBCException.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\XODBC\XODBC\xodbc(v6)\src\xodbc\XODBCRecordset.cpp"
+]
+Creating command line "cl.exe @C:\Users\xiangyou\AppData\Local\Temp\RSPE034.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\xodbcv6d.lib"  ".\Debug\XODBCDatabase.obj" ".\Debug\XODBCDataSource.obj" ".\Debug\XODBCError.obj" ".\Debug\XODBCException.obj" ".\Debug\XODBCRecordset.obj" "
+<h3>Output Window</h3>
+Compiling...
+XODBCDatabase.cpp
+d:\yy\work\数据仓库\src\dw_svn\olap\xodbc\xodbc\xodbc(v6)\src\xodbc\xodbcdatabase.cpp(1) : fatal error C1083: Cannot open include file: 'xodbc/XODBCDatabase.h': No such file or directory
+XODBCDataSource.cpp
+d:\yy\work\数据仓库\src\dw_svn\olap\xodbc\xodbc\xodbc(v6)\src\xodbc\xodbcdatasource.cpp(1) : fatal error C1083: Cannot open include file: 'XODBC/XODBCDataSource.h': No such file or directory
+XODBCError.cpp
+d:\yy\work\数据仓库\src\dw_svn\olap\xodbc\xodbc\xodbc(v6)\src\xodbc\xodbcerror.cpp(1) : fatal error C1083: Cannot open include file: 'xodbc/XODBCError.h': No such file or directory
+XODBCException.cpp
+d:\yy\work\数据仓库\src\dw_svn\olap\xodbc\xodbc\xodbc(v6)\src\xodbc\xodbcexception.cpp(1) : fatal error C1083: Cannot open include file: 'xodbc/XODBCException.h': No such file or directory
+XODBCRecordset.cpp
+d:\yy\work\数据仓库\src\dw_svn\olap\xodbc\xodbc\xodbc(v6)\src\xodbc\xodbcrecordset.cpp(1) : fatal error C1083: Cannot open include file: 'xodbc/XODBCRecordset.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+xodbcv6d.lib - 5 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

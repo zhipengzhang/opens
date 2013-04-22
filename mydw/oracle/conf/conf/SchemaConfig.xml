@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schemas>
+    <Schema name="FoodMart2000" filepath="DWServer/metadata/FoodMart.xml" />
+	<Schema name="sales" filepath="DWServer/metadata/wuliu2.xml" />
+<Schema name="OLAP_TestDB" filepath="DWServer/metadata/OLAP_TestDB.xml" />
+<Schema name="jt" filepath="DWServer/metadata/jt.xml" /></Schemas>

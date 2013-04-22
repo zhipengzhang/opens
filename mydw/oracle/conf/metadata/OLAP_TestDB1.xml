@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Schema name="OLAP_TestDB">
+<DataSource url="DW_wz" userName="system" passWord="manager" connString="JDBC:ODBC:minwz" connDriver="sun.jdbc.odbc.JdbcOdbcDriver" />
+<Cube name="WZ">
+<Table name="fact_wz2_beifen"/>
+<Dimension name="address" foreignKey="WZSXH" >
+<Hierarchy name="address" hasAll="true" primaryKey="WZSXH" >
+<Table name="fact_wz2_beifen" />
+<Level name="address" column="WZDD1" uniqueMembers="true">
+</Level>
+</Hierarchy>
+</Dimension>
+<Dimension name="weifa" foreignKey="WZSXH" >
+<Hierarchy name="weifa" hasAll="true" primaryKey="WZSXH" >
+<Table name="fact_wz2_beifen" />
+<Level name="weifa" column="WZXWDM" uniqueMembers="true">
+</Level>
+</Hierarchy>
+</Dimension>
+<Measure name="SSQYDM" column="SSQYDM" aggregator="sum" formatString="#,###" />
+</Cube>
+</Schema>

@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PreComputation - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSPE79.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/PreComputation.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\AggDBWriter.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\AggFileWriter.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\AggWriter.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\FileHandle.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\FreqPool.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\Globals.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\MolapCCPreComputation.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\MolapFCPreComputation.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\MolapMTCCPreComputation.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\MolapPreComputationBase.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\MTPDCCPreComputation.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\PreCmptException.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\PreComputation.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\PreComputationbase.cpp"
+"D:\yy\work\数据仓库\src\DW_SVN\OLAP\PreComputation\RolapCCPreComputation.cpp"
+]
+Creating command line "cl.exe @C:\Users\xiangyou\AppData\Local\Temp\RSPE79.tmp" 
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSPE7A.tmp" with contents
+[
+/nologo /out:"..\lib\PreComputation.lib" 
+".\Debug\AggDBWriter.obj"
+".\Debug\AggFileWriter.obj"
+".\Debug\AggWriter.obj"
+".\Debug\FileHandle.obj"
+".\Debug\FreqPool.obj"
+".\Debug\Globals.obj"
+".\Debug\MolapCCPreComputation.obj"
+".\Debug\MolapFCPreComputation.obj"
+".\Debug\MolapMTCCPreComputation.obj"
+".\Debug\MolapPreComputationBase.obj"
+".\Debug\MTPDCCPreComputation.obj"
+".\Debug\PreCmptException.obj"
+".\Debug\PreComputation.obj"
+".\Debug\PreComputationbase.obj"
+".\Debug\RolapCCPreComputation.obj"
+]
+Creating command line "link.exe -lib @C:\Users\xiangyou\AppData\Local\Temp\RSPE7A.tmp"
+<h3>Output Window</h3>
+Compiling...
+AggDBWriter.cpp
+AggFileWriter.cpp
+AggWriter.cpp
+FileHandle.cpp
+FreqPool.cpp
+Globals.cpp
+MolapCCPreComputation.cpp
+MolapFCPreComputation.cpp
+MolapMTCCPreComputation.cpp
+MolapPreComputationBase.cpp
+MTPDCCPreComputation.cpp
+PreCmptException.cpp
+PreComputation.cpp
+PreComputationbase.cpp
+RolapCCPreComputation.cpp
+Creating library...
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSP4C07.tmp" with contents
+[
+/nologo /o"..\lib/PreComputation.bsc" 
+".\Debug\AggDBWriter.sbr"
+".\Debug\AggFileWriter.sbr"
+".\Debug\AggWriter.sbr"
+".\Debug\FileHandle.sbr"
+".\Debug\FreqPool.sbr"
+".\Debug\Globals.sbr"
+".\Debug\MolapCCPreComputation.sbr"
+".\Debug\MolapFCPreComputation.sbr"
+".\Debug\MolapMTCCPreComputation.sbr"
+".\Debug\MolapPreComputationBase.sbr"
+".\Debug\MTPDCCPreComputation.sbr"
+".\Debug\PreCmptException.sbr"
+".\Debug\PreComputation.sbr"
+".\Debug\PreComputationbase.sbr"
+".\Debug\RolapCCPreComputation.sbr"]
+Creating command line "bscmake.exe @C:\Users\xiangyou\AppData\Local\Temp\RSP4C07.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PreComputation.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

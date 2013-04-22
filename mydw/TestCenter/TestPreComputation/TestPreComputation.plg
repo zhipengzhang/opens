@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TestPreComputation - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSP1DAE.tmp" with contents
+[
+/nologo /MTd /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/TestPreComputation.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\yy\work\Êý¾Ý²Ö¿â\src\DW_SVN\OLAP\TestCenter\TestPreComputation\PreComputationTest.cpp"
+]
+Creating command line "cl.exe @C:\Users\xiangyou\AppData\Local\Temp\RSP1DAE.tmp" 
+Creating temporary file "C:\Users\xiangyou\AppData\Local\Temp\RSP1DAF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib DWSchemaSLib.lib XODBCV6DM.lib xerces-c_2D.lib PreComputation.lib /nologo /subsystem:console /incremental:no /pdb:"Release/TestPreComputation.pdb" /machine:I386 /out:"Release/TestPreComputation.exe" /libpath:"..\..\lib" 
+".\Release\PreComputationTest.obj"
+]
+Creating command line "link.exe @C:\Users\xiangyou\AppData\Local\Temp\RSP1DAF.tmp"
+<h3>Output Window</h3>
+Compiling...
+PreComputationTest.cpp
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+PreComputation.lib(MTPDCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall DWConfig::getValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getValue@DWConfig@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MolapPreComputationBase.obj) : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall DWConfig::getValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getValue@DWConfig@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(PreComputation.obj) : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall DWConfig::getValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getValue@DWConfig@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MolapMTCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall DWConfig::getValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getValue@DWConfig@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MolapFCPreComputation.obj) : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall DWConfig::getValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getValue@DWConfig@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MolapCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall DWConfig::getValue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getValue@DWConfig@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(PreComputation.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfig::reset(void)" (?reset@DWConfig@@QAEXXZ)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfig::reset(void)" (?reset@DWConfig@@QAEXXZ)
+PreComputation.lib(MTPDCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: class DWConfig * __thiscall DWConfiguration::getConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getConfig@DWConfiguration@@QAEPAVDWConfig@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+PreComputation.lib(MolapPreComputationBase.obj) : error LNK2001: unresolved external symbol "public: class DWConfig * __thiscall DWConfiguration::getConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getConfig@DWConfiguration@@QAEPAVDWConfig@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: class DWConfig * __thiscall DWConfiguration::getConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getConfig@DWConfiguration@@QAEPAVDWConfig@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+PreComputation.lib(PreComputation.obj) : error LNK2001: unresolved external symbol "public: class DWConfig * __thiscall DWConfiguration::getConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getConfig@DWConfiguration@@QAEPAVDWConfig@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+PreComputation.lib(MolapMTCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: class DWConfig * __thiscall DWConfiguration::getConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getConfig@DWConfiguration@@QAEPAVDWConfig@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+PreComputation.lib(MolapFCPreComputation.obj) : error LNK2001: unresolved external symbol "public: class DWConfig * __thiscall DWConfiguration::getConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getConfig@DWConfiguration@@QAEPAVDWConfig@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+PreComputation.lib(MolapCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: class DWConfig * __thiscall DWConfiguration::getConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getConfig@DWConfiguration@@QAEPAVDWConfig@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+PreComputation.lib(MTPDCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfiguration::addConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addConfig@DWConfiguration@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MolapPreComputationBase.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfiguration::addConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addConfig@DWConfiguration@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfiguration::addConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addConfig@DWConfiguration@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(PreComputation.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfiguration::addConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addConfig@DWConfiguration@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MolapMTCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfiguration::addConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addConfig@DWConfiguration@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MolapFCPreComputation.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfiguration::addConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addConfig@DWConfiguration@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MolapCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: void __thiscall DWConfiguration::addConfig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addConfig@DWConfiguration@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+PreComputation.lib(MTPDCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: static class DWConfiguration & __cdecl DWConfiguration::instance(void)" (?instance@DWConfiguration@@SAAAV1@XZ)
+PreComputation.lib(MolapPreComputationBase.obj) : error LNK2001: unresolved external symbol "public: static class DWConfiguration & __cdecl DWConfiguration::instance(void)" (?instance@DWConfiguration@@SAAAV1@XZ)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: static class DWConfiguration & __cdecl DWConfiguration::instance(void)" (?instance@DWConfiguration@@SAAAV1@XZ)
+PreComputation.lib(PreComputation.obj) : error LNK2001: unresolved external symbol "public: static class DWConfiguration & __cdecl DWConfiguration::instance(void)" (?instance@DWConfiguration@@SAAAV1@XZ)
+PreComputation.lib(MolapMTCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: static class DWConfiguration & __cdecl DWConfiguration::instance(void)" (?instance@DWConfiguration@@SAAAV1@XZ)
+PreComputation.lib(MolapFCPreComputation.obj) : error LNK2001: unresolved external symbol "public: static class DWConfiguration & __cdecl DWConfiguration::instance(void)" (?instance@DWConfiguration@@SAAAV1@XZ)
+PreComputation.lib(MolapCCPreComputation.obj) : error LNK2001: unresolved external symbol "public: static class DWConfiguration & __cdecl DWConfiguration::instance(void)" (?instance@DWConfiguration@@SAAAV1@XZ)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall XAttributes::getAttribute(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getAttribute@XAttributes@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: class XElement * __thiscall XElementList::item(unsigned int)" (?item@XElementList@@QAEPAVXElement@@I@Z)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: unsigned int __thiscall XElementList::getLength(void)" (?getLength@XElementList@@QAEIXZ)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall XElementList::hasChildNodes(void)" (?hasChildNodes@XElementList@@QAE_NXZ)
+DWSchemaSLib.lib(XSchemas.obj) : error LNK2001: unresolved external symbol "public: class XElement * __thiscall DWConfig::getRoot(void)" (?getRoot@DWConfig@@QAEPAVXElement@@XZ)
+Release/TestPreComputation.exe : fatal error LNK1120: 10 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+TestPreComputation.exe - 35 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
